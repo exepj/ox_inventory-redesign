@@ -13,6 +13,7 @@ import { closeTooltip } from '../../store/tooltip';
 import InventoryContext from './InventoryContext';
 import { closeContextMenu } from '../../store/contextMenu';
 import Fade from '../utils/transitions/Fade';
+import { Locale } from '../../store/locale';
 
 const Inventory: React.FC = () => {
   const [inventoryVisible, setInventoryVisible] = React.useState(false);
@@ -43,9 +44,12 @@ const Inventory: React.FC = () => {
   return (
     <>
       <Fade in={inventoryVisible}>
+      <div className="background"></div>         
+      <div className="inventory-advertise">
+        <h3 className="Logoname">{Locale.ui_rpname || 'Roleplay'}</h3>
+      </div>
         <div className="inventory-wrapper">
           <LeftInventory />
-          <InventoryControl />
           <RightInventory />
           <Tooltip />
           <InventoryContext />
