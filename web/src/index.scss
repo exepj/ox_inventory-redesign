@@ -3,7 +3,7 @@ $textColor: #c1c2c5;
 $mainFont: Roboto;
 
 $secondaryColor: rgba(12, 12, 12, 0.4);
-$secondaryColorHighlight: #33343F;
+$secondaryColorHighlight: #33343f;
 $secondaryColorLight: rgba(0, 0, 0, 0.5);
 $secondaryColorDark: rgba(12, 12, 12, 0.8);
 
@@ -70,7 +70,7 @@ input[type='number']::-webkit-outer-spin-button {
   flex-direction: column;
 }
 
-.context-menu-item  {
+.context-menu-item {
   padding: 8px;
   border-radius: 4px;
   background-color: transparent;
@@ -115,29 +115,30 @@ button:active {
   image-rendering: -webkit-optimize-contrast;
 }
 
-.infobox i, .infobox2 i{
+.infobox i,
+.infobox2 i {
   color: #fa5b57;
   transform: rotate(-45deg);
   font-size: 20px;
   padding: 10px;
 }
-.infobox{
+.infobox {
   width: 40px;
   height: 40px;
-  left:0;
+  left: 0;
   border: 2px solid white;
   border-radius: 5px;
   color: white;
   rotate: 150%;
   transform: rotate(45deg);
 }
-.inventory-advertise{
+.inventory-advertise {
   height: 100%;
   position: absolute;
   left: 0;
   width: 6%;
   border-right: 1px solid #ffffff36;
-  }
+}
 .inventory-wrapper {
   display: flex;
   flex-direction: row;
@@ -276,8 +277,7 @@ button:active {
 
 // Dialog is used fro useful controls window
 
-
-.background{
+.background {
   z-index: -1;
   background-image: url('nui://ox_inventory/web/images/pngfirst.png');
   width: 100%;
@@ -289,7 +289,7 @@ button:active {
   opacity: 0.4;
 }
 
-.inventory-grid-header-wrapper a{
+.inventory-grid-header-wrapper a {
   position: relative;
   color: #fa5b57;
   font-size: 23px;
@@ -323,7 +323,7 @@ button:active {
 .inventory-grid-container {
   display: flex;
   height: calc(5 * 10.62vh);
-  grid-template-columns: repeat(5,10.4vh);
+  grid-template-columns: repeat(5, 10.4vh);
   grid-auto-rows: $gridSize + 0.22vh;
   gap: $gridGap;
   margin-top: 10px;
@@ -382,7 +382,7 @@ button:active {
   right: 5px;
   font-size: 16px;
 }
-.Logoname{
+.Logoname {
   font: bold 60px Sans-Serif;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -396,10 +396,10 @@ button:active {
   transform-origin: 30px 0px;
   transform: rotate(269deg);
 }
-#player{
-   flex-direction: column;
+#player {
+  flex-direction: column;
 }
-#player .inventory-slot:nth-child(-n+5) {
+#player .inventory-slot:nth-child(-n + 5) {
   margin-right: 20px;
 }
 
@@ -408,9 +408,14 @@ button:active {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  background: radial-gradient(at center center, rgba(220, 205, 205, 0) 0%, rgb(32 32 32 / 0%) 20%, rgb(220 53 69 / 31%) 100%) !important;
+  background: radial-gradient(
+    at center center,
+    rgba(220, 205, 205, 0) 0%,
+    rgb(32 32 32 / 0%) 20%,
+    rgb(220 53 69 / 31%) 100%
+  ) !important;
   border-radius: 5px;
-    p {
+  p {
     font-size: 12px;
   }
 }
@@ -459,7 +464,6 @@ button:active {
     text-shadow: 0.1vh 0.1vh 0 rgba(0, 0, 0, 0.7);
   }
 }
-
 
 .tooltip-wrapper {
   pointer-events: none;
@@ -587,8 +591,8 @@ button:active {
 }
 
 .weight-bar {
-  background: rgba(0,0,0,.4);
-  border: 1px inset rgba(0,0,0,.1);
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px inset rgba(0, 0, 0, 0.1);
   height: 0.2vh;
   overflow: hidden;
   border-radius: 10px;
@@ -614,7 +618,7 @@ button:active {
 }
 
 .transition-slide-up-enter {
-  transform: translateY(200px)
+  transform: translateY(200px);
 }
 
 .transition-slide-up-enter-active {
