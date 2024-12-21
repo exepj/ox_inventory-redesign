@@ -46,7 +46,7 @@ const Inventory: React.FC = () => {
       <Fade in={inventoryVisible}>
       <div className="background"></div>         
       <div className="inventory-advertise">
-        <h3 className="Logoname">{Locale.ui_rpname || 'Roleplay'}</h3>
+        <h3 className="Logoname">{Locale.ui_rpname || 'New World RP'}</h3>
       </div>
         <div className="inventory-wrapper">
           <LeftInventory />
