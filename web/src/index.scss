@@ -84,7 +84,7 @@ input[type='number']::-webkit-outer-spin-button {
     transform: none;
   }
   &:hover {
-    background-color: #dc35453b;
+    background-color: #073a87;
     cursor: pointer;
   }
 }
@@ -117,7 +117,7 @@ button:active {
 
 .infobox i,
 .infobox2 i {
-  color: #fa5b57;
+  color: #175dc5;
   transform: rotate(-45deg);
   font-size: 20px;
   padding: 10px;
@@ -176,8 +176,8 @@ button:active {
   .inventory-control-button {
     font-size: 14px;
     color: #fff;
-    background: #dc3545;
-    border-bottom: 5px solid #9d3838;
+    background: #0066ffc5;
+    border-bottom: 5px solid #053c8dc5;
     transition: 200ms;
     padding: 12px 8px;
     border-radius: 2.5%;
@@ -291,9 +291,9 @@ button:active {
 
 .inventory-grid-header-wrapper a {
   position: relative;
-  color: #fa5b57;
+  color: #175dc5;
   font-size: 23px;
-  text-shadow: #fa5b57 1px 0 10px;
+  text-shadow: #175dc5 1px 0 10px;
   letter-spacing: -1;
   font-style: bold;
   font-family: monospace;
@@ -386,8 +386,8 @@ button:active {
   font: bold 60px Sans-Serif;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fa5b57;
-  text-shadow: rgb(250 91 87) 1px 0px 12px;
+  color: #175dc5;
+  text-shadow: rgb(23, 93, 197) 1px 0px 12px;
   width: 345px;
   position: absolute;
   text-align: start;
@@ -412,7 +412,7 @@ button:active {
     at center center,
     rgba(220, 205, 205, 0) 0%,
     rgb(32 32 32 / 0%) 20%,
-    rgb(220 53 69 / 31%) 100%
+    rgb(7 58 135 / 31%) 100%
   ) !important;
   border-radius: 5px;
   p {
